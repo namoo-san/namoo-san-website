@@ -1,38 +1,34 @@
 <template>
+<article>
+  <test/>
   <section class="container">
     <div>
-      <logo />
       <h1 class="title">
-        my-portfolio
+        namoo-san😃
       </h1>
       <h2 class="subtitle">
-        My portfolio website for netlify.
+        DJ / Developer
       </h2>
       <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >GitHub</a>
+        <a href="#" class="button is-success is-large">GitHub</a>
+        <a href="#" class="button is-primary is-large">kokoiku.com</a>
+        <a href="#" class="button is-info is-large">Facebook</a>
       </div>
     </div>
   </section>
+</article>
 </template>
-
 <script>
 import Logo from '~/components/Logo.vue'
+import test from '~/components/nav.vue'
 
 export default {
   components: {
-    Logo
+    Logo,
+    test
   },
   head: {
-    title: 'hoge'
+    title: 'namoo-san'
   }
 }
 </script>
