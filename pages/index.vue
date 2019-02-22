@@ -7,7 +7,7 @@
         namoo-san😃
       </h1>
       <h2 class="subtitle">
-        DJ / Developer
+        Nuxt.js + Netlify
       </h2>
       <div class="links">
         <a href="#" class="button is-success is-large">GitHub</a>
