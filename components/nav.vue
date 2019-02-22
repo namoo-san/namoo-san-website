@@ -35,7 +35,7 @@
           </a>
           <hr class="navbar-divider">
           <a class="navbar-item is-active" href="#">
-            kokoiku.com
+            Service
           </a>
         </div>
       </div>

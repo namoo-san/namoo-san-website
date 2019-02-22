@@ -11,7 +11,6 @@
       </h2>
       <div class="links">
         <a href="#" class="button is-success is-large">GitHub</a>
-        <a href="#" class="button is-primary is-large">kokoiku.com</a>
         <a href="#" class="button is-info is-large">Facebook</a>
       </div>
     </div>
