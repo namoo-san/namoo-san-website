@@ -11,10 +11,12 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^5.7.2",
     "@nuxtjs/bulma": "^1.2.1",
     "cross-env": "^5.2.0",
     "express": "^4.16.4",
-    "nuxt": "^2.3.4"
+    "nuxt": "^2.3.4",
+    "nuxt-fontawesome": "^0.4.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.9"
