@@ -14,8 +14,8 @@
       </div>
       <div class="links">
         <a href="https://github.com/namoo-san" class="button is-primary is-large">Development</a>
-        <nuxt-link to="/dj" href="#" class="button is-danger is-large">DJ</nuxt-link>
-        <nuxt-link to="/profile" href="#" class="button is-warning is-large">Profile</nuxt-link>
+        <nuxt-link to="/events" class="button is-danger is-large">DJ Events</nuxt-link>
+        <nuxt-link to="/profile" class="button is-warning is-large">Profile</nuxt-link>
       </div>
     </div>
   </section>

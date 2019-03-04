@@ -1,58 +1,60 @@
 <template>
-<div class="navbar is-primary">
+<nav class="navbar is-primary">
   <div class="navbar-brand">
-    <nuxt-link to="/" class="navbar-item" href="#">
+    <nuxt-link to="/" class="navbar-item">
       🎧 + 🔧
     </nuxt-link>
+    <div class="navbar-burger burger" v-bind:class="{ 'is-active': menuActive }" v-on:click="menuToggle()" data-target="navbarExampleTransparentExample">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
   </div>
 
-  <div id="navbarExampleTransparentExample" class="navbar-menu">
+  <div id="navbarExampleTransparentExample" class="navbar-menu" v-bind:class="{ 'is-active': menuActive }">
     <div class="navbar-start">
       <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link" href="#">
-          Socials
-        </a>
-        <div class="navbar-dropdown is-boxed">
-          <a class="navbar-item" href="https://github.com/namoo-san">
-            GitHub
-          </a>
-          <a class="navbar-item" href="https://www.facebook.com/ieto.sharu">
-            Facebook(Private)
-          </a>
-          <a class="navbar-item" href="https://soundcloud.com/djnm">
-            SoundCloud
-          </a>
-          <a class="navbar-item" href="https://twitter.com/ietosharu">
-            Twitter
-          </a>
-          <a class="navbar-item" href="https://qiita.com/nakashun">
-          Qiita
-          </a>
-        </div>
-      </div>
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link" href="#">
-          Services
-        </a>
-        <div class="navbar-dropdown is-boxed">
-          <a class="navbar-item" href="https://kokoiku.com/">
+        <a class="navbar-link">Social & Services</a>
+          <div class="navbar-dropdown is-boxed">
+            <a class="navbar-item" href="https://github.com/namoo-san">
+              GitHub
+            </a>
+            <a class="navbar-item" href="https://www.facebook.com/ieto.sharu">
+              Facebook(Private)
+            </a>
+            <a class="navbar-item" href="https://soundcloud.com/djnm">
+              SoundCloud
+            </a>
+            <a class="navbar-item" href="https://twitter.com/ietosharu">
+              Twitter
+            </a>
+            <a class="navbar-item" href="https://qiita.com/nakashun">
+            Qiita
+            </a>
+            <hr class="navbar-divider is-active">
+            <a class="navbar-item" href="https://kokoiku.com">
             ここ行く.com
-          </a>
+            </a>
+          </div>
         </div>
       </div>
-
-    </div>
-
-    </div>
+    <div class="navbar-end"></div>
   </div>
-</div>
+</nav>
 </template>
 
 <script>
 export default {
-  link: [
-  { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons' },
-  ]
+data(){
+return{
+menuActive:false,
+}
+},
+methods: {
+menuToggle(){
+this.menuActive = !this.menuActive;
+},
+}
 }
 </script>
 
