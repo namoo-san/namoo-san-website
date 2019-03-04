@@ -1,33 +1,35 @@
 <template>
 <article>
-  <test/>
+  <navbar/>
   <section class="container">
     <div>
       <h1 class="title">
-        namoo-san😃
+        🎧 + 🔧
       </h1>
       <h2 class="subtitle">
-        Nuxt.js + Netlify
+        namoo-san
       </h2>
+      <div>
+        Deploy on Nuxt.js + Netlify⚡
+      </div>
       <div class="links">
-        <a href="#" class="button is-success is-large">GitHub</a>
-        <a href="#" class="button is-info is-large">Facebook</a>
+        <a href="https://github.com/namoo-san" class="button is-primary is-large">Development</a>
+        <nuxt-link to="/dj" href="#" class="button is-danger is-large">DJ</nuxt-link>
+        <nuxt-link to="/profile" href="#" class="button is-warning is-large">Profile</nuxt-link>
       </div>
     </div>
   </section>
 </article>
 </template>
 <script>
-import Logo from '~/components/Logo.vue'
-import test from '~/components/nav.vue'
+import navbar from '~/components/nav.vue'
 
 export default {
   components: {
-    Logo,
-    test
+    navbar
   },
   head: {
-    title: 'namoo-san'
+    title: '🎧 + 🔧'
   }
 }
 </script>
@@ -62,5 +64,9 @@ export default {
 
 .links {
   padding-top: 15px;
+}
+
+.button{
+  margin-top: 10px;
 }
 </style>
