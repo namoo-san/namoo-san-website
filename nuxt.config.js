@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const pkg = require('./package')
 
 
@@ -78,8 +79,7 @@ module.exports = {
   /*
   ** Nuxt.js modules
   */
-  modules: [,
-    // Doc:https://github.com/nuxt-community/modules/tree/master/packages/bulma
+  modules: [
     '@nuxtjs/bulma',
     'nuxt-fontawesome'
   ],
