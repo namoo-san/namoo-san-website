@@ -200,9 +200,6 @@ export default {
 </script>
 
 <style>
-.card{
-  margin: 4%;
-}
 .sections{
   margin-top: 10px;
   margin-bottom: 10px;
