@@ -7,15 +7,15 @@
         🎧 + 🔧
       </h1>
       <h2 class="subtitle">
-        namoo-san
+        namoo-house
       </h2>
       <div>
         Deploy on Nuxt.js + Netlify⚡
       </div>
       <div class="links">
-        <a href="https://github.com/namoo-san" class="button is-primary is-large">GitHub</a>
-        <nuxt-link to="/events" class="button is-danger is-large">DJ Events</nuxt-link>
-        <nuxt-link to="/profile" class="button is-warning is-large">Profile</nuxt-link>
+        <nuxt-link to="/works" class="button is-primary is-large">Works</nuxt-link>
+        <nuxt-link to="/events" class="button is-warning is-large">DJ Events</nuxt-link>
+        <a href="https://github.com/namoo-san" class="button is-dark is-large">GitHub</a>
       </div>
     </div>
   </section>
