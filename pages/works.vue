@@ -1,6 +1,7 @@
 <template>
 <article>
     <navbar/>
+    <section class="section">
     <div class="columns">
       <div class="column">
         <div class="card">
@@ -92,6 +93,7 @@
         </div>
       </div>
     </div>
+    </section>
 </article>
 </template>
 
@@ -109,9 +111,6 @@ export default {
 </script>
 
 <style>
-.card{
-  margin: 4%;
-}
 .sections{
   margin-top: 10px;
   margin-bottom: 10px;
