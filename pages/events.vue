@@ -40,6 +40,7 @@
             </div>
           </div>
         </div>
+        <div class="separator"></div>
         <div class="card">
           <div class="card-image">
             <figure class="image is-4by3">
@@ -114,6 +115,7 @@
             </div>
           </div>
         </div>
+        <div class="separator"></div>
         <div class="card">
           <div class="card-image">
             <figure class="image is-4by3">
@@ -212,5 +214,8 @@ export default {
 }
 .imgfix{
   object-fit: cover;
+}
+.separator{
+  margin: 1.5rem;
 }
 </style>
