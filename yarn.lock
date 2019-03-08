@@ -923,6 +923,13 @@
   dependencies:
     bulma "^0.7.4"
 
+"@nuxtjs/google-analytics@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/google-analytics/-/google-analytics-2.1.0.tgz#f00d0429baf149b57477931a4a1860e430376f1d"
+  integrity sha512-JVHcCV2nNuY2bnk3C1C5cGIEWc3YA0pECt5BvbPwa8+ZeY1lxbMskm9xAoKI4V/WyWUDmA2kYtkbERSrifi0mw==
+  dependencies:
+    vue-analytics "^5.16.2"
+
 "@nuxtjs/youch@^4.2.3":
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/@nuxtjs/youch/-/youch-4.2.3.tgz#36f8b22df5a0efaa81373109851e1d857aca6bed"
@@ -7115,6 +7122,11 @@ vm-browserify@0.0.4:
   integrity sha1-XX6kW7755Kb/ZflUOOCofDV9WnM=
   dependencies:
     indexof "0.0.1"
+
+vue-analytics@^5.16.2:
+  version "5.16.2"
+  resolved "https://registry.yarnpkg.com/vue-analytics/-/vue-analytics-5.16.2.tgz#37724aeec71bb830b1cf2d52a969cf190ef120c1"
+  integrity sha512-5JKGnVF33VHlXFREzht9z3Z11N4IA8vXNnpvYeAf72rEUyAuuU9Q9kX34bULW2CxMrahr8m06IB8+91GX0Ruag==
 
 vue-eslint-parser@^5.0.0:
   version "5.0.0"

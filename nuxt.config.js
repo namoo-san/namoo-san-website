@@ -81,8 +81,12 @@ module.exports = {
   */
   modules: [
     '@nuxtjs/bulma',
-    'nuxt-fontawesome'
+    'nuxt-fontawesome',
+    '@nuxtjs/google-analytics'
   ],
+  googleAnalytics: {
+    id: 'UA-135914514-1'
+  },
 
   fontawesome: {
     imports: [
