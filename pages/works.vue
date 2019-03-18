@@ -29,6 +29,12 @@
             </div>
             <div class="content">
               <div>
+                Equipment :
+                <div class="color">
+                  #CDJ-2000 #CDJ-2000NXS #CDJ-2000NXS2 #rekordboxDJ #rekordbox #PRO-LINK
+                </div>
+              </div>
+              <div>
                 Like :
                 <div class="color">
                   #House #FunkyHouse #DiscoHouse #Jackin'House #DeepHouse #FutureHouse #EDM
