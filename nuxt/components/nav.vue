@@ -4,14 +4,14 @@
     <nuxt-link to="/" class="navbar-item">
       🎧 + 🔧
     </nuxt-link>
-    <div class="navbar-burger burger" v-bind:class="{ 'is-active': menuActive }" v-on:click="menuToggle()" data-target="navbarExampleTransparentExample">
+    <div class="navbar-burger burger" v-bind:class="{ 'is-active': menuActive }" v-on:click="menuToggle()" data-target="burger-menu">
       <span></span>
       <span></span>
       <span></span>
     </div>
   </div>
 
-  <div id="navbarExampleTransparentExample" class="navbar-menu" v-bind:class="{ 'is-active': menuActive }">
+  <div id="burger-menu" class="navbar-menu" v-bind:class="{ 'is-active': menuActive }">
     <div class="navbar-start">
       <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link">Social & Services</a>
