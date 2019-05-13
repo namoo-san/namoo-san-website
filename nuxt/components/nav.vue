@@ -1,5 +1,5 @@
 <template>
-<nav class="navbar is-primary">
+<nav class="navbar is-link">
   <div class="navbar-brand">
     <nuxt-link to="/" class="navbar-item">
       🎧 + 🔧
