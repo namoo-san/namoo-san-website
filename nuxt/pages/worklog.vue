@@ -12,7 +12,7 @@
           <div class="card-content">
             <div class="media">
               <div class="media-content">
-                <p class="title is-4">UNBOXX #1 #2 #3</p>
+                <p class="title is-4">Terrform</p>
                 <p class="subtitle is-6">Shibuya - 円山町</p>
               </div>
             </div>

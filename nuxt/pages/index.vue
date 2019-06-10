@@ -1,6 +1,5 @@
 <template>
 <article>
-  <navbar/>
   <section class="container">
     <div>
       <h1 class="title">
@@ -9,25 +8,21 @@
       <h2 class="subtitle">
         namoo-house
       </h2>
-      <div>
-        Deploy on Nuxt.js + Netlify⚡
-      </div>
-      <div class="links">
-        <nuxt-link to="/works" class="button is-primary is-large">Works</nuxt-link>
-        <nuxt-link to="/events" class="button is-warning is-large">DJ Events</nuxt-link>
-        <a href="https://github.com/namoo-san" class="button is-dark is-large">GitHub</a>
+      <div class = "contents">
+        <div class="links">
+          <nuxt-link to="/works" class="button is-primary is-large">Works</nuxt-link>
+          <nuxt-link to="/worklog" class = "button is-success is-large">Worklog</nuxt-link>
+          <nuxt-link to="/events" class="button is-warning is-large">DJ Events</nuxt-link>
+          <a href="https://github.com/namoo-san" class="button is-dark is-large">GitHub</a>
+        </div>
       </div>
     </div>
   </section>
 </article>
 </template>
 <script>
-import navbar from '~/components/nav.vue'
 
 export default {
-  components: {
-    navbar
-  },
   head: {
     title: '🎧 + 🔧'
   }
