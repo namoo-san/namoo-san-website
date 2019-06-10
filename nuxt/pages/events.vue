@@ -1,6 +1,5 @@
 <template>
   <article>
-    <navbar/>
     <section class="section">
     <div class="columns">
       <div class="column">
@@ -191,12 +190,8 @@
 </template>
 
 <script>
-import navbar from '~/components/nav.vue'
 
 export default {
-  components: {
-    navbar
-  },
   head: {
     title: '🎧 + 🔧'
   }
