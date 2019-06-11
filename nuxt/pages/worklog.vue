@@ -1,27 +1,44 @@
 <template>
   <article>
     <section class="section">
-      <div class = "separator">
-        <div v-for="(result,index) in contents" :key="index" class="card">
-          <div class="card-image">
-            <figure class="image is-4by3">
-              <img class="imgfix" :src="result.coverimg" alt="Image">
-            </figure>
-          </div>
-          <div class="card-content">
-            <div class="media">
-              <div class="media-content">
-                <p class="title is-4">{{result.title}}</p>
-                <p class="subtitle is-6">{{result.subtitle}}</p>
-              </div>
+      <div class = "container">
+        <div class="columns is-centered">
+          <div class="column">
+            <div class = "title is-4">
+              Worklogs
             </div>
-            <div class="content">
-              {{result.contents}}
-              <div class="subtitle is-5">{{result.footer}}</div>
+            <div v-for="(result,index) in contents" :key="index">
+              <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img class="imgfix" :src="result.coverimg" alt="Image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">
+                      {{ result.title }}
+                    </p>
+                    <p class="subtitle is-6">
+                      {{ result.subtitle }}
+                    </p>
+                  </div>
+                </div>
+                <div class="content">
+                  {{ result.contents }}
+                </div>
+                <div class="subtitle is-6">
+                  {{ result.footer }}
+                </div>
+              </div>
+              <div class = "separator">
+              </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
     </section>
   </article>
 </template>
@@ -44,10 +61,6 @@ export default {
 </script>
 
 <style>
-.sections{
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
 .color{
   color: rgb(0, 162, 138);
   display: inline;
@@ -56,6 +69,6 @@ export default {
   object-fit: cover;
 }
 .separator{
-  margin: 1.5rem;
+  margin: 1em;
 }
 </style>
