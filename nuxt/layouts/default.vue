@@ -48,11 +48,11 @@
     <footer class="footer">
       <div class="content has-text-centered">
         <p>
-          nakashun.com  - copyright 2018-2019 @namoo-san
+          nakashun.com - @namoo-san
         </p>
-          <p>
-            Deploy on <strong>Nuxt.js + Netlify⚡</strong>
-          </p>
+        <p>
+          Deploy on <strong>Nuxt.js + Netlify⚡</strong>
+        </p>
         </div>
     </footer>
 
