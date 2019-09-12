@@ -1,4 +1,4 @@
-FROM node:11.1
+FROM node:11.15
 
 ENV LANG C.UTF-8
 ENV TZ Asia/Tokyo
