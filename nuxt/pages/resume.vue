@@ -34,9 +34,9 @@
           </tr>
           <tr>
             <th>2012-2013</th>
-            <td></td>
-            <td>19</td>
-            <td>9</td>
+            <td>KDDI子会社</td>
+            <td>情報システム/エンジニア</td>
+            <td>Citrix Xen Desktop/仮想化サーバー構築/ツール開発</td>
           </tr>
           <tr>
             <th>2013-2016</th>
@@ -64,9 +64,9 @@
           </tr>
           <tr class="is-selected">
             <th>2016-2019</th>
-            <td>38</td>
-            <td>19</td>
-            <td>9</td>
+            <td>宿泊予約サイト</td>
+            <td>情報システム/エンジニア</td>
+            <td>AWS/Azure/GCP/GAS</td>
           </tr>
         </tbody>
       </table>
