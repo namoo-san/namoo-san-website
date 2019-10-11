@@ -3,17 +3,19 @@
   <section class="container">
     <div>
       <h1 class="title">
-        🎧 + 🔧
+        🎧 🔧 📷
       </h1>
       <h2 class="subtitle">
-        namoo-house
+        nakashun.com
       </h2>
       <div class = "contents">
         <div class="links">
-          <nuxt-link to="/works" class="button is-primary is-large">Works</nuxt-link>
-          <nuxt-link to="/worklog" class = "button is-success is-large">Worklog</nuxt-link>
-          <nuxt-link to="/events" class="button is-warning is-large">DJ Events</nuxt-link>
-          <a href="https://github.com/namoo-san" class="button is-dark is-large">GitHub</a>
+          <nuxt-link to="/works" class="button is-link is-large is-block">Works</nuxt-link>
+          <nuxt-link to="/worklog" class = "button is-info is-large is-block">Worklog</nuxt-link>
+          <nuxt-link to="/resume" class = "button is-success is-large is-block">Resume</nuxt-link>
+          <nuxt-link to="/events" class="button is-warning is-large is-block">DJ Events</nuxt-link>
+          <a href="https://github.com/namoo-san" class="button is-dark is-large is-block">GitHub</a>
+          <a href="https://www.flickr.com/photos/namoo-san" class="button is-dark is-large is-block">Flickr</a>
         </div>
       </div>
     </div>
@@ -24,7 +26,7 @@
 
 export default {
   head: {
-    title: '🎧 + 🔧'
+    title: '🎧 🔧 📷'
   }
 }
 </script>

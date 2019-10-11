@@ -18,23 +18,26 @@
             <a class="navbar-link">Social & Services</a>
               <div class="navbar-dropdown is-boxed">
                 <a class="navbar-item" href="https://github.com/namoo-san">
-                  GitHub
+                  🔧 GitHub
                 </a>
                 <a class="navbar-item" href="https://www.facebook.com/ieto.sharu">
-                  Facebook(Private)
+                  😃 Facebook(Private)
                 </a>
                 <a class="navbar-item" href="https://soundcloud.com/djnm">
-                  SoundCloud
+                  🎧 SoundCloud
                 </a>
                 <a class="navbar-item" href="https://twitter.com/ietosharu">
-                  Twitter
+                  🐦 Twitter
                 </a>
                 <a class="navbar-item" href="https://qiita.com/nakashun">
-                Qiita
+                📝 Qiita
+                </a>
+                <a class="navbar-item" href="https://www.flickr.com/photos/namoo-san">
+                📷 Flickr
                 </a>
                 <hr class="navbar-divider is-active">
                 <a class="navbar-item" href="https://kokoiku.com">
-                ここ行く.com
+                👉 ここ行く.com
                 </a>
               </div>
             </div>
