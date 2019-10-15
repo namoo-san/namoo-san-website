@@ -982,7 +982,7 @@
   dependencies:
     vue-analytics "^5.16.2"
 
-"@nuxtjs/pwa@^3.0.0-beta.19":
+"@nuxtjs/pwa@3.0.0-beta.19":
   version "3.0.0-beta.19"
   resolved "https://registry.yarnpkg.com/@nuxtjs/pwa/-/pwa-3.0.0-beta.19.tgz#4685c8137a5b588126b3ee4d469f6806423f958f"
   integrity sha512-5c7CB2qrrlpu7BmJeWX9GN//uK1SiEzBbT+ykH11ZfUxQyXiO3QTm1f6tTOnG/P5v4kRIGYdBr0wmRbA/Hv1cw==
@@ -3070,7 +3070,7 @@ eslint-visitor-keys@^1.0.0, eslint-visitor-keys@^1.1.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.1.0.tgz#e2a82cea84ff246ad6fb57f9bde5b46621459ec2"
   integrity sha512-8y9YjtM1JBJU/A9Kc+SbaOV4y29sSWckBwMHa+FGtVj5gN/sbnKDf6xJUl+8g7FAij9LVaP8C24DUiH/f/2Z9A==
 
-eslint@^6.5.1:
+eslint@6.5.1:
   version "6.5.1"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-6.5.1.tgz#828e4c469697d43bb586144be152198b91e96ed6"
   integrity sha512-32h99BoLYStT1iq1v2P9uwpyznQ4M2jRiFB6acitKz52Gqn+vPaMDUTB1bYi1WN4Nquj2w+t+bimYUG83DC55A==
