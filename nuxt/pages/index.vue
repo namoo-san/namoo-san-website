@@ -12,7 +12,7 @@
         <div class="links">
           <nuxt-link to="/works" class="button is-link is-large is-block">Works</nuxt-link>
           <nuxt-link to="/worklog" class = "button is-info is-large is-block">Worklog</nuxt-link>
-          <nuxt-link to="/resume" class = "button is-success is-large is-block">Resume</nuxt-link>
+          <!-- <nuxt-link to="/resume" class = "button is-success is-large is-block">Resume</nuxt-link> -->
           <nuxt-link to="/events" class="button is-warning is-large is-block">DJ Events</nuxt-link>
           <a href="https://github.com/namoo-san" class="button is-dark is-large is-block">GitHub</a>
           <a href="https://www.flickr.com/photos/namoo-san" class="button is-dark is-large is-block">Flickr</a>
