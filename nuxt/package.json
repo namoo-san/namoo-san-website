@@ -30,7 +30,7 @@
     "express": "4.17.1",
     "nuxt": "2.10.1",
     "nuxt-fontawesome": "0.4.0",
-    "prettier": "1.18.2"
+    "prettier": "2.0.5"
   },
   "devDependencies": {
     "nodemon": "1.19.3"
