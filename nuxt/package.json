@@ -22,15 +22,15 @@
     "@fortawesome/free-solid-svg-icons": "5.11.2",
     "@nuxtjs/bulma": "1.2.5",
     "@nuxtjs/google-analytics": "2.2.0",
-    "@nuxtjs/pwa": "3.0.0-beta.19",
     "axios": "0.19.2",
+    "@nuxtjs/pwa": "3.0.0-beta.20",
     "babel-eslint": "10.0.3",
+    "eslint": "7.4.0",
     "cross-env": "6.0.3",
-    "eslint": "6.5.1",
     "express": "4.17.1",
     "nuxt": "2.10.1",
     "nuxt-fontawesome": "0.4.0",
-    "prettier": "1.18.2"
+    "prettier": "2.0.5"
   },
   "devDependencies": {
     "nodemon": "1.19.3"
