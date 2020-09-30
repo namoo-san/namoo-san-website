@@ -14,7 +14,7 @@ module.exports = {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: pkg.description },
-      { name: 'google-site-verification', content: 'h-XExxbkhpiZlqrsioKq_J8WwWTB1UhmGZwyQJWvUe4'}
+      { name: 'google-site-verification', content: 'h-XExxbkhpiZlqrsioKq_J8WwWTB1UhmGZwyQJWvUe4' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicons/favicon.ico' },
@@ -82,21 +82,19 @@ module.exports = {
   */
   modules: [
     '@nuxtjs/bulma',
-    'nuxt-fontawesome',
     '@nuxtjs/google-analytics',
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    '@nuxtjs/font-awesome',
   ],
   googleAnalytics: {
     id: 'UA-135914514-1'
   },
 
+  /*
+ ** FontAwesome
+ */
   fontawesome: {
-    imports: [
-      {
-        set: '@fortawesome/free-solid-svg-icons',
-        icons: ['fas']
-      }
-    ]
+    component: 'fa'
   },
 
   /*
