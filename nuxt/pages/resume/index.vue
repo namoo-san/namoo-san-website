@@ -13,25 +13,25 @@
 
     <div class="hero-foot">
       <nav class="tabs">
-          <ul>
-            <li class="is-active"><nuxt-link to="/resume">Resume</nuxt-link></li>
-            <li><nuxt-link to="/resume/careers">Careers</nuxt-link></li>
-            <li><nuxt-link to="/resume/skills">Skills</nuxt-link></li>
-            <li><nuxt-link to="/resume/dev">Development</nuxt-link></li>
-            <li><nuxt-link to="/resume/others">Others</nuxt-link></li>
-          </ul>
+        <ul>
+          <li class="is-active"><nuxt-link to="/resume">Resume</nuxt-link></li>
+          <li><nuxt-link to="/resume/careers">Careers</nuxt-link></li>
+          <li><nuxt-link to="/resume/skills">Skills</nuxt-link></li>
+          <li><nuxt-link to="/resume/dev">Development</nuxt-link></li>
+          <li><nuxt-link to="/resume/others">Others</nuxt-link></li>
+        </ul>
       </nav>
     </div>
 
-      <div class="columns">
-        <div class="column">
-          <section class="section">
+    <div class="columns">
+      <div class="column">
+        <section class="section">
           <div class="box">
             <article class="media">
               <div class="media-left">
                 <figure class="image is-64x64">
                   <img
-                    src="https://bulma.io/images/placeholders/128x128.png"
+                    src="https://avatars3.githubusercontent.com/u/27718737?v=4"
                     alt="Image"
                   />
                 </figure>
@@ -39,40 +39,19 @@
               <div class="media-content">
                 <div class="content">
                   <p>
-                    <strong>John Smith</strong> <small>@johnsmith</small>
-                    <small>31m</small>
+                    <strong>nakashun</strong> <small>@namoo-san</small>
+                    <small>(26)</small>
                     <br />
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aenean efficitur sit amet massa fringilla egestas. Nullam
-                    condimentum luctus turpis.
+                    雑食エンジニア
                   </p>
                 </div>
-                <nav class="level is-mobile">
-                  <div class="level-left">
-                    <a class="level-item" aria-label="reply">
-                      <span class="icon is-small">
-                        <i class="fas fa-reply" aria-hidden="true"></i>
-                      </span>
-                    </a>
-                    <a class="level-item" aria-label="retweet">
-                      <span class="icon is-small">
-                        <i class="fas fa-retweet" aria-hidden="true"></i>
-                      </span>
-                    </a>
-                    <a class="level-item" aria-label="like">
-                      <span class="icon is-small">
-                        <i class="fas fa-heart" aria-hidden="true"></i>
-                      </span>
-                    </a>
-                  </div>
-                </nav>
               </div>
             </article>
           </div>
-          </section>
-        </div>
-        <div class="column">
-          <section class="section">
+        </section>
+      </div>
+      <div class="column">
+        <section class="section">
           <div class="table-container">
             <table class="table">
               <thead>
@@ -102,20 +81,95 @@
                     <strong>(C)</strong>
                   </td>
                 </tr>
+
+                <tr>
+                  <th>2001年</th>
+                  <th>4月</th>
+                  <td>小学校入学</td>
+                </tr>
+                <tr />
+                <tr>
+                  <th>2007年</th>
+
+                  <th>3月</th>
+
+                  <td>小学校卒業</td>
+                  <td />
+                </tr>
+                <tr />
+                <tr>
+                  <th>2007年</th>
+
+                  <th>4月</th>
+
+                  <td>中学校入学</td>
+                  <td />
+                </tr>
+                <tr />
+                <tr>
+                  <th>2010年</th>
+
+                  <th>3月</th>
+
+                  <td>中学校卒業</td>
+                  <td />
+                </tr>
+                <tr />
+                <tr>
+                  <th>2010年</th>
+
+                  <th>4月</th>
+
+                  <td>高校入学</td>
+                  <td />
+                </tr>
+                <tr />
+                <tr>
+                  <th>2013年</th>
+
+                  <th>3月</th>
+
+                  <td>高校卒業</td>
+                  <td />
+                </tr>
+                <tr />
+                <tr>
+                  <th>2013年</th>
+
+                  <th>4月</th>
+
+                  <td>大学入学</td>
+                  <td />
+                </tr>
+                <tr />
+                <tr>
+                  <th>2017年</th>
+
+                  <th>3月</th>
+
+                  <td>大学卒業</td>
+                  <td />
+                </tr>
+                <tr />
               </tbody>
             </table>
           </div>
-          </section>
-        </div>
+        </section>
       </div>
+    </div>
   </article>
 </template>
 
 <script>
 export default {
   head: {
-    title: "🎧 + 🔧",
+    title: "nakashun.com - Resume",
   },
+  meta: [
+    { charset: "utf-8" },
+    { name: "viewport", content: "width=device-width, initial-scale=1" },
+    { hid: "robots", name: "robots", content: "noindex" },
+  ],
 };
 </script>
 
