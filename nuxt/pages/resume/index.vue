@@ -81,76 +81,53 @@
                     <strong>(C)</strong>
                   </td>
                 </tr>
-
                 <tr>
                   <th>2001年</th>
                   <th>4月</th>
                   <td>小学校入学</td>
                 </tr>
-                <tr />
                 <tr>
                   <th>2007年</th>
-
                   <th>3月</th>
-
                   <td>小学校卒業</td>
                   <td />
                 </tr>
-                <tr />
                 <tr>
                   <th>2007年</th>
-
                   <th>4月</th>
-
                   <td>中学校入学</td>
                   <td />
                 </tr>
-                <tr />
                 <tr>
                   <th>2010年</th>
-
                   <th>3月</th>
-
                   <td>中学校卒業</td>
                   <td />
                 </tr>
-                <tr />
                 <tr>
                   <th>2010年</th>
-
                   <th>4月</th>
-
                   <td>高校入学</td>
                   <td />
                 </tr>
-                <tr />
                 <tr>
                   <th>2013年</th>
-
                   <th>3月</th>
-
                   <td>高校卒業</td>
                   <td />
                 </tr>
-                <tr />
                 <tr>
                   <th>2013年</th>
-
                   <th>4月</th>
-
                   <td>大学入学</td>
                   <td />
                 </tr>
-                <tr />
                 <tr>
                   <th>2017年</th>
-
                   <th>3月</th>
-
                   <td>大学卒業</td>
                   <td />
                 </tr>
-                <tr />
               </tbody>
             </table>
           </div>
