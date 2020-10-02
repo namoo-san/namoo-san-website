@@ -25,9 +25,9 @@
       </nav>
     </div>
 
+    <section class="section">
     <div class="columns">
       <div class="column">
-        <section class="section">
           <article class="message is-warning">
             <div class="message-header">
               <p>Amazon Web Service</p>
@@ -62,10 +62,8 @@
               sodales sem.
             </div>
           </article>
-        </section>
       </div>
       <div class="column">
-        <section class="section">
           <article class="message is-dark">
             <div class="message-header">
               <p>Coding skills</p>
@@ -100,9 +98,9 @@
               sodales sem.
             </div>
           </article>
-        </section>
       </div>
     </div>
+    </section>
   </article>
 </template>
 
