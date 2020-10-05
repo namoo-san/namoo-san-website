@@ -38,6 +38,21 @@
               </div>
             </div>
           </div>
+          <br/>
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-3by2">
+                <img src="~/static/imgs/index3.jpg" alt="Image" />
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Trip</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="column">
           <div class="card">
@@ -50,6 +65,21 @@
               <div class="media">
                 <div class="media-content">
                   <p class="title is-4">Zoo</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br/>
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-3by2">
+                <img src="~/static/imgs/index4.jpg" alt="Image" />
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Motorcycle</p>
                 </div>
               </div>
             </div>
