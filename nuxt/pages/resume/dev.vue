@@ -2,110 +2,90 @@
   <article>
     <div class="hero-body">
       <div class="has-text-centered">
-        <p class="title">
-          🔧
-        </p>
-        <p class="subtitle">
-          Development
-        </p>
+        <p class="title">🔧</p>
+        <p class="subtitle">Development</p>
       </div>
     </div>
 
     <div class="hero-foot">
       <nav class="tabs">
-          <ul>
-            <li><nuxt-link to="/resume">Resume</nuxt-link></li>
-            <li><nuxt-link to="/resume/careers">Careers</nuxt-link></li>
-            <li><nuxt-link to="/resume/skills">Skills</nuxt-link></li>
-            <li class="is-active"><nuxt-link to="/resume/dev">Development</nuxt-link></li>
-            <li><nuxt-link to="/resume/others">Others</nuxt-link></li>
-          </ul>
+        <ul>
+          <li><nuxt-link to="/resume">Resume</nuxt-link></li>
+          <li><nuxt-link to="/resume/careers">Careers</nuxt-link></li>
+          <li><nuxt-link to="/resume/skills">Skills</nuxt-link></li>
+          <li class="is-active">
+            <nuxt-link to="/resume/dev">Development</nuxt-link>
+          </li>
+          <li><nuxt-link to="/resume/others">Others</nuxt-link></li>
+        </ul>
       </nav>
     </div>
 
     <section class="section">
       <div class="columns">
         <div class="column">
-          <div class="box">
-            <article class="media">
-              <div class="media-left">
-                <figure class="image is-64x64">
-                  <img
-                    src="https://bulma.io/images/placeholders/128x128.png"
-                    alt="Image"
-                  />
-                </figure>
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img
+                  src="https://d2v9k5u4v94ulw.cloudfront.net/assets/images/4018147/original/84554796-1a66-4494-a6aa-c6050305a598?1566348179"
+                  alt="Image"
+                />
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">nakashun.com</p>
+                  <p class="subtitle is-6">ポートフォリオ Webサイト</p>
+                </div>
               </div>
-              <div class="media-content">
-                <div class="content">
+
+              <div class="content">
+                <div class="block">
+                  <p>Nuxt.jsを利用した静的Webサイトです。</p>
+                  <p>GitHubでソースコードを公開しています。</p>
                   <p>
-                    <strong>John Smith</strong> <small>@johnsmith</small>
-                    <small>31m</small>
-                    <br />
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aenean efficitur sit amet massa fringilla egestas. Nullam
-                    condimentum luctus turpis.
+                    GitHubのmasterブランチにpushすると、Netlifyへ自動的にデプロイされます。
                   </p>
                 </div>
-                <nav class="level is-mobile">
-                  <div class="level-left">
-                    <a class="level-item" aria-label="reply">
-                      <span class="icon is-small">
-                        <i class="fas fa-reply" aria-hidden="true"></i>
-                      </span>
-                    </a>
-                    <a class="level-item" aria-label="retweet">
-                      <span class="icon is-small">
-                        <i class="fas fa-retweet" aria-hidden="true"></i>
-                      </span>
-                    </a>
-                    <a class="level-item" aria-label="like">
-                      <span class="icon is-small">
-                        <i class="fas fa-heart" aria-hidden="true"></i>
-                      </span>
-                    </a>
-                  </div>
-                </nav>
               </div>
-            </article>
+            </div>
           </div>
         </div>
         <div class="column">
-          <div class="table-container">
-            <table class="table">
-              <thead>
-                <tr>
-                  <th><abbr title="Year">Year</abbr></th>
-                  <th><abbr title="Month">Month</abbr></th>
-                  <th>Company</th>
-                </tr>
-              </thead>
-              <tfoot>
-                <tr>
-                  <th><abbr title="Year">Year</abbr></th>
-                  <th><abbr title="Month">Month</abbr></th>
-                  <th>Company</th>
-                </tr>
-              </tfoot>
-              <tbody>
-                <tr>
-                  <th>2020</th>
-                  <th>1</th>
-                  <td>
-                    <a
-                      href="https://en.wikipedia.org/wiki/Leicester_City_F.C."
-                      title="Leicester City F.C."
-                      >Leicester City</a
-                    >
-                    <strong>(C)</strong>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img
+                  src="https://d2v9k5u4v94ulw.cloudfront.net/assets/images/4018153/original/a796273a-2a78-4ec7-b4a3-3d497fcd2a4e?1566348386"
+                  alt="Placeholder image"
+                />
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">kokoiku.com</p>
+                  <p class="subtitle is-6">(β) 飲食店 店舗検索サイト</p>
+                </div>
+              </div>
+
+              <div class="content">
+                <div class="block">
+                  Nuxt.jsを利用した飲食店の店舗検索サイトです。
+                  GPSを利用して、一番近い店舗を検索できます。
+                  また、店舗によってはそのまま予約が可能です。
+                </div>
+                <div class="block">
+                  コンテンツAPIに、strapiを利用しています。
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      </section>
+    </section>
   </article>
 </template>
 
