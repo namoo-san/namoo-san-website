@@ -25,9 +25,9 @@
       </nav>
     </div>
 
+  <section class="section">
     <div class="columns">
       <div class="column">
-        <section class="section">
           <div class="card">
             <header class="card-header">
               <p class="card-header-title">
@@ -75,10 +75,8 @@
               <div class="card-footer-item">hogehoge</div>
             </footer>
           </div>
-        </section>
       </div>
       <div class="column">
-        <section class="section">
           <div class="card">
             <header class="card-header">
               <p class="card-header-title">
@@ -126,9 +124,9 @@
               <div class="card-footer-item">hogehoge</div>
             </footer>
           </div>
-        </section>
       </div>
     </div>
+    </section>
   </article>
 </template>
 

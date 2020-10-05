@@ -23,9 +23,9 @@
       </nav>
     </div>
 
+  <section class="section">
     <div class="columns">
       <div class="column">
-        <section class="section">
           <div class="box">
             <article class="media">
               <div class="media-left">
@@ -48,10 +48,8 @@
               </div>
             </article>
           </div>
-        </section>
       </div>
       <div class="column">
-        <section class="section">
           <div class="table-container">
             <table class="table">
               <thead>
@@ -131,9 +129,9 @@
               </tbody>
             </table>
           </div>
-        </section>
       </div>
     </div>
+    </section>
   </article>
 </template>
 
