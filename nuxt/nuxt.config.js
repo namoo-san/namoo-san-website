@@ -84,7 +84,6 @@ module.exports = {
     '@nuxtjs/bulma',
     '@nuxtjs/google-analytics',
     '@nuxtjs/pwa',
-    '@nuxtjs/font-awesome',
   ],
   googleAnalytics: {
     id: 'UA-135914514-1'
@@ -93,9 +92,6 @@ module.exports = {
   /*
  ** FontAwesome
  */
-  fontawesome: {
-    component: 'fa'
-  },
 
   /*
   ** Build configuration
