@@ -42,7 +42,14 @@
                     <strong>nakashun</strong> <small>@namoo-san</small>
                     <small>(26)</small>
                     <br />
-                    雑食エンジニア
+                  </p>
+                  <p>
+                    一休.com 社内情報システム部でリードエンジニアをしています。
+                    人々が便利になるようなモノを作るのが好きです。
+                  </p>
+                  <p>
+                    幼少期からパソコンに触れ、インフラの構築やコーディングなど
+                    ジャンルを問わず課題をテクノロジーを使って解決することが好きです。
                   </p>
                 </div>
               </div>
@@ -56,74 +63,55 @@
                 <tr>
                   <th><abbr title="Year">Year</abbr></th>
                   <th><abbr title="Month">Month</abbr></th>
-                  <th>Company</th>
+                  <th>Educational background</th>
                 </tr>
               </thead>
-              <tfoot>
-                <tr>
-                  <th><abbr title="Year">Year</abbr></th>
-                  <th><abbr title="Month">Month</abbr></th>
-                  <th>Company</th>
-                </tr>
-              </tfoot>
               <tbody>
                 <tr>
-                  <th>2020</th>
-                  <th>1</th>
-                  <td>
-                    <a
-                      href="https://en.wikipedia.org/wiki/Leicester_City_F.C."
-                      title="Leicester City F.C."
-                      >Leicester City</a
-                    >
-                    <strong>(C)</strong>
-                  </td>
-                </tr>
-                <tr>
-                  <th>2001年</th>
-                  <th>4月</th>
+                  <th>2001</th>
+                  <th>April</th>
                   <td>小学校入学</td>
                 </tr>
                 <tr>
-                  <th>2007年</th>
-                  <th>3月</th>
+                  <th>2007</th>
+                  <th>March</th>
                   <td>小学校卒業</td>
                   <td />
                 </tr>
                 <tr>
-                  <th>2007年</th>
-                  <th>4月</th>
+                  <th>2007</th>
+                  <th>April</th>
                   <td>中学校入学</td>
                   <td />
                 </tr>
                 <tr>
-                  <th>2010年</th>
-                  <th>3月</th>
+                  <th>2010</th>
+                  <th>March</th>
                   <td>中学校卒業</td>
                   <td />
                 </tr>
                 <tr>
-                  <th>2010年</th>
-                  <th>4月</th>
+                  <th>2010</th>
+                  <th>April</th>
                   <td>高校入学</td>
                   <td />
                 </tr>
                 <tr>
-                  <th>2013年</th>
-                  <th>3月</th>
+                  <th>2013</th>
+                  <th>March</th>
                   <td>高校卒業</td>
                   <td />
                 </tr>
                 <tr>
-                  <th>2013年</th>
-                  <th>4月</th>
-                  <td>大学入学</td>
+                  <th>2013</th>
+                  <th>April</th>
+                  <td>専門学校入学</td>
                   <td />
                 </tr>
                 <tr>
-                  <th>2017年</th>
-                  <th>3月</th>
-                  <td>大学卒業</td>
+                  <th>2015</th>
+                  <th>June</th>
+                  <td>専門学校中退</td>
                   <td />
                 </tr>
               </tbody>
