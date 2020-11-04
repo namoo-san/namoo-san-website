@@ -26,9 +26,9 @@
         <div class="column">
           <div class="card">
             <div class="card-image">
-              <figure class="image is-4by3">
+              <figure class="image is-5by3">
                 <img
-                  src="https://d2v9k5u4v94ulw.cloudfront.net/assets/images/4018147/original/84554796-1a66-4494-a6aa-c6050305a598?1566348179"
+                  src="~/static/imgs/mysite.png"
                   alt="Image"
                 />
               </figure>
@@ -56,9 +56,9 @@
         <div class="column">
           <div class="card">
             <div class="card-image">
-              <figure class="image is-4by3">
+              <figure class="image is-5by3">
                 <img
-                  src="https://d2v9k5u4v94ulw.cloudfront.net/assets/images/4018153/original/a796273a-2a78-4ec7-b4a3-3d497fcd2a4e?1566348386"
+                  src="~/static/imgs/kokoiku.png"
                   alt="Placeholder image"
                 />
               </figure>
