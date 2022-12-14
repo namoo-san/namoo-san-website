@@ -40,11 +40,12 @@
                 <div class="content">
                   <p>
                     <strong>nakashun</strong> <small>@namoo-san</small>
-                    <small>(26)</small>
+                    <small>(28)</small>
                     <br />
                   </p>
                   <p>
-                    一休.com 社内情報システム部でリードエンジニアをしています。
+                    現在はEurekaでコーポレートITチーム（MISチーム）のマネージャーをやっています。
+                    前職は一休.com 社内情報システム部でリードエンジニアをしていました。
                     人々が便利になるようなモノを作るのが好きです。
                   </p>
                   <p>
