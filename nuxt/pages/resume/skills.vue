@@ -107,9 +107,10 @@
               </div>
               <div class="card-footer-item">
                 <div class="tags">
-                  <span class="tag is-success">Python</span>
+                  <span class="tag is-success">Python3</span>
                   <span class="tag is-success">JavaScript</span>
                   <span class="tag is-success">Ruby</span>
+                  <span class="tag is-success">VCL</span>
                   <span class="tag is-success"
                     >HashiCorp Configuration Language</span
                   >
@@ -172,6 +173,31 @@
                   <span class="tag is-danger">AMEX Security Assesment</span>
                   <span class="tag is-danger">ISMS</span>
                   <span class="tag is-danger">Penetration Test</span>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="message is-primary">
+            <div class="message-header">
+              <p>IPO Consulting</p>
+            </div>
+            <div class="message-body">
+              <div class="block">
+                IPOコンサルティング はじめました（情報システム部門）
+              </div>
+              <div class="block">
+                今までの経験と知識を活用し、IPO 要件準拠な情報システムリソースの構成を支援します。
+              </div>
+              <div class="card-footer-item">
+                <div class="tags">
+                  <span class="tag is-primary">内部統制支援</span>
+                  <span class="tag is-primary">システムアーキテクチャレビュー</span>
+                  <span class="tag is-primary">製品選定</span>
+                  <span class="tag is-primary">IdP導入</span>
+                  <span class="tag is-primary">MDM導入</span>
+                  <span class="tag is-primary">EDR導入</span>
+                  <span class="tag is-primary">IPOアセスメント対応</span>
+                  <span class="tag is-primary">ITアセットマネジメント</span>
                 </div>
               </div>
             </div>
