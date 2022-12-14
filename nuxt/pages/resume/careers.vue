@@ -126,6 +126,8 @@
                     <li>ペネトレーションテスト実施・対策</li>
                     <li>ISMS取得支援</li>
                     <li>Autopilot PC展開</li>
+                    <li>採用活動・ブランディング</li>
+                    <li>チームビルディング</li>
                   </ul>
                 </div>
               </div>
@@ -149,7 +151,7 @@
                   <span class="tag is-danger">Azure</span>
                   <span class="tag is-danger">Amazon Web Service</span>
                   <span class="tag is-danger">Google Cloud Platform</span>
-                  <span class="tag is-danger">GSuite</span>
+                  <span class="tag is-danger">Google Workspace</span>
                   <span class="tag is-warning">Amazon Connect</span>
                   <span class="tag is-warning">Terraform</span>
                   <span class="tag is-warning">Roadworker</span>
@@ -159,8 +161,92 @@
             </footer>
           </div>
           <br />
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">4社目 - 株式会社エウレカ</p>
+            </header>
+            <div class="card-content">
+              <div class="content is-small">
+                <block>
+                  コーポレートエンジニア マネージャーとして参加。
+                  採用・チームビルドからロードマップの立案・運用などを実施し、マネージャーを含む4名のチームを構成。
+                  グループ企業間の課題解決や、IT内部統制をマネジメントしながらセキュリティ対応等 幅広い業務を倒しています。
+                </block>
+                <div class="block">
+                  <ul>
+                    <li>Intune 導入・Autopilot 導入</li>
+                    <li>社内ITヘルプデスク 受付自動化</li>
+                    <li>社内Slack botの作成</li>
+                    <li>コーポレートサイト セキュリティ対応等</li>
+                    <li>社内リソース AWS移行</li>
+                    <li>IdP統合（Okta SSOの統制）</li>
+                    <li>Workdayの導入支援・部門を跨ぐ業務プロセスの仲介</li>
+                    <li>セキュリティアセスメント対応</li>
+                    <li>ペネトレーションテスト実施・対策</li>
+                    <li>オフィスリフォーム対応</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <footer class="card-footer">
+              <div class="card-footer-item">
+                <div class="tags">
+                  <span class="tag is-success">情シス</span>
+                  <span class="tag is-dark">インフラ構築</span>
+                  <span class="tag is-dark">インフラ運用</span>
+                  <span class="tag is-info">JavaScript</span>
+                  <span class="tag is-info">Python</span>
+                  <span class="tag is-info">Intune</span>
+                  <span class="tag is-info">Autopilot</span>
+                  <span class="tag is-danger">Azure</span>
+                  <span class="tag is-danger">Okta</span>
+                  <span class="tag is-danger">Amazon Web Service</span>
+                  <span class="tag is-danger">Google Cloud Platform</span>
+                  <span class="tag is-danger">Google Workspace</span>
+                  <span class="tag is-warning">Terraform</span>
+                </div>
+              </div>
+            </footer>
+          </div>
+          <br />
         </div>
         <div class="column">
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">フリーランス活動 - ITコンサルティング等</p>
+            </header>
+            <div class="card-content">
+              <div class="content is-small">
+                <block>
+                  <li>ABEJA,inc</li>
+                  <li>トラベルブック株式会社</li>
+                  <li>Re:teigi,Inc / JYOMYAKU株式会社</li>
+                  <li>Alpaca,inc</li>
+                </block>
+                <div class="block">
+                  <ul>
+                    <li>情報システム技術支援</li>
+                    <li>IPO 内部統制コンサルティング</li>
+                    <li>IPO 情報システムコンサルティング</li>
+                    <li>グループ企業内 IT統制支援</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <footer class="card-footer">
+              <div class="card-footer-item">
+                <div class="tags">
+                  <span class="tag is-warning">Azure AD</span>
+                  <span class="tag is-warning">Google Workspace</span>
+                  <span class="tag is-warning">Jamf Pro</span>
+                  <span class="tag is-info">Intune</span>
+                  <span class="tag is-info">mac OS</span>
+                  <span class="tag is-light">Windows</span>
+                </div>
+              </div>
+            </footer>
+          </div>
+          <br />
           <div class="card">
             <header class="card-header">
               <p class="card-header-title">フリーランス活動 - IT支援</p>
@@ -168,16 +254,16 @@
             <div class="card-content">
               <div class="content is-small">
                 <block>
-                  飲食・アパレル等の店舗向けに、IT支援を行いました。
-                  その他、Webページの作成や紙媒体のデザインなども行いました。
+                  飲食・アパレル等の店舗向けのIT支援
+                  その他、Webページの作成や紙媒体のデザイン支援
                 </block>
                 <div class="block">
                   <ul>
                     <li>回線敷設・トラブルシューティング</li>
-                    <li>POSシステム導入</li>
-                    <li>データ復旧支援</li>
+                    <li>POSシステム選定・導入・運用</li>
+                    <li>データ復旧支援等</li>
                     <li>在庫管理システム構築</li>
-                    <li>広告・ホームページデザイン</li>
+                    <li>広告・店舗Webサイト制作</li>
                   </ul>
                 </div>
               </div>
@@ -204,7 +290,8 @@
               <div class="content is-small">
                 <block>
                   ナイトクラブ・ファッションショーの映像や、大学のイベント映像などを作成しました。
-                  過去には、Apple Store 福岡天神で「中学生VJ」としてVJイベントを行いました。
+                  過去には、Apple Store
+                  福岡天神で「中学生VJ」としてVJイベントを行いました。
                 </block>
                 <div class="block">
                   <ul>
