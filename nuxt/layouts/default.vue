@@ -47,10 +47,6 @@
               >
                 📷 Flickr
               </a>
-              <hr class="navbar-divider is-active" />
-              <a class="navbar-item" href="https://kokoiku.com">
-                👉 ここ行く.com
-              </a>
             </div>
           </div>
         </div>
