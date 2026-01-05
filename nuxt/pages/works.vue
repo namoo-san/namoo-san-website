@@ -36,7 +36,7 @@
               <div>
                 Like :
                 <div class="color">
-                  #House #FunkyHouse #DiscoHouse #Jackin'House #DeepHouse #FutureHouse #EDM
+                  #House #FunkyHouse #DiscoHouse #Jackin'House #DeepHouse #FutureHouse
                 </div>
               </div>
               <div>
