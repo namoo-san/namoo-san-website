@@ -1,9 +1,9 @@
 <template>
 <nav class="navbar is-link">
   <div class="navbar-brand">
-    <nuxt-link to="/" class="navbar-item">
+    <NuxtLink to="/" class="navbar-item">
       🎧 + 🔧
-    </nuxt-link>
+    </NuxtLink>
     <div class="navbar-burger burger" v-bind:class="{ 'is-active': menuActive }" v-on:click="menuToggle()" data-target="burger-menu">
       <span></span>
       <span></span>

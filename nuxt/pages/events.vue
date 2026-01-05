@@ -6,7 +6,7 @@
         <div class="card">
           <div class="card-image">
             <figure class="image is-4by3">
-              <img class="imgfix" src="~/static/ub.jpg" alt="DJ Image">
+              <img class="imgfix" src="/ub.jpg" alt="DJ Image">
             </figure>
           </div>
           <div class="card-content">
@@ -43,7 +43,7 @@
         <div class="card">
           <div class="card-image">
             <figure class="image is-4by3">
-              <img class="imgfix" src="~/static/ubl.jpg" alt="DJ Image">
+              <img class="imgfix" src="/ubl.jpg" alt="DJ Image">
             </figure>
           </div>
           <div class="card-content">
@@ -81,7 +81,7 @@
         <div class="card">
           <div class="card-image">
             <figure class="image is-4by3">
-              <img class="imgfix" src="~/static/wl.jpg" alt="DJ Image">
+              <img class="imgfix" src="/wl.jpg" alt="DJ Image">
             </figure>
           </div>
           <div class="card-content">
@@ -118,7 +118,7 @@
         <div class="card">
           <div class="card-image">
             <figure class="image is-4by3">
-              <img class="imgfix" src="~/static/noimage.jpg" alt="DJ Image">
+              <img class="imgfix" src="/noimage.jpg" alt="DJ Image">
             </figure>
           </div>
           <div class="card-content">
@@ -150,7 +150,7 @@
         <div class="card">
           <div class="card-image">
             <figure class="image is-4by3">
-              <img class="imgfix" src="~/static/noimage.jpg" alt="DJ Image">
+              <img class="imgfix" src="/noimage.jpg" alt="DJ Image">
             </figure>
           </div>
           <div class="card-content">
@@ -189,13 +189,10 @@
   </article>
 </template>
 
-<script>
-
-export default {
-  head: {
-    title: '🎧 + 🔧'
-  }
-}
+<script setup>
+useHead({
+  title: '🎧 + 🔧'
+})
 </script>
 
 <style>

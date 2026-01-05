@@ -10,10 +10,10 @@
       </h2>
       <div class = "contents">
         <div class="links">
-          <nuxt-link to="/works" class="button is-link is-large is-block">Works</nuxt-link>
-          <!-- <nuxt-link to="/worklog" class = "button is-info is-large is-block">Worklog</nuxt-link> -->
-          <!-- <nuxt-link to="/resume" class = "button is-success is-large is-block">Resume</nuxt-link> -->
-          <nuxt-link to="/events" class="button is-warning is-large is-block">DJ Events</nuxt-link>
+          <NuxtLink to="/works" class="button is-link is-large is-block">Works</NuxtLink>
+          <!-- <NuxtLink to="/worklog" class = "button is-info is-large is-block">Worklog</NuxtLink> -->
+          <!-- <NuxtLink to="/resume" class = "button is-success is-large is-block">Resume</NuxtLink> -->
+          <NuxtLink to="/events" class="button is-warning is-large is-block">DJ Events</NuxtLink>
           <a href="https://github.com/namoo-san" class="button is-dark is-large is-block">GitHub</a>
           <a href="https://www.flickr.com/photos/namoo-san" class="button is-dark is-large is-block">Flickr</a>
         </div>
@@ -22,13 +22,10 @@
   </section>
 </article>
 </template>
-<script>
-
-export default {
-  head: {
-    title: '🎧 🔧 📷'
-  }
-}
+<script setup>
+useHead({
+  title: '🎧 🔧 📷'
+})
 </script>
 
 <style>

@@ -2,9 +2,9 @@
   <div>
     <nav class="navbar is-transparent">
       <div class="navbar-brand">
-        <nuxt-link to="/" class="navbar-item">
+        <NuxtLink to="/" class="navbar-item">
           🎧 + 🔧
-        </nuxt-link>
+        </NuxtLink>
         <div
           class="navbar-burger burger"
           v-bind:class="{ 'is-active': menuActive }"
@@ -58,7 +58,7 @@
       </div>
     </nav>
 
-    <nuxt />
+    <NuxtPage />
 
     <footer class="footer">
       <div class="content has-text-centered">

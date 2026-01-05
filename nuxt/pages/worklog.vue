@@ -7,7 +7,7 @@
             <div class = "title is-4">
               Worklogs
             </div>
-            <div v-for="(result,index) in contents" :key="index">
+            <div v-for="(result,index) in contents || []" :key="index">
               <div class="card">
               <div class="card-image">
                 <figure class="image is-4by3">
@@ -43,21 +43,14 @@
   </article>
 </template>
 
-<script>
-import axios from 'axios'
+<script setup>
+useHead({
+  title: '🎧 + 🔧'
+})
 
-export default {
-  head: {
-    title: '🎧 + 🔧'
-  },
-  asyncData ({params}) {
-    return axios
-    .get('https://script.googleusercontent.com/macros/echo?user_content_key=hhc7C9IYkFnqO2LjGvOOQGy05yDg3LfEneVSACxwc74Qzjf_6KZVOrlURmyB0h8wGIE_X5HNoDwqJycRuEBkeQgJ3oz0n_qLm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnF9mWpEhXJSiEqOnAe0al7tBZFabL2d0PJXOCBmOAY_aMg8HFVMb-b2XfQPRKuZZLF0geFAGgvdB&lib=MQhorLLoxB5o3UI3mxtpi0894Q4w4dklm')
-    .then((res) => {
-      return {contents: res.data}
-    })
-  }
-}
+const { data: contents } = await useFetch('https://script.googleusercontent.com/macros/echo?user_content_key=hhc7C9IYkFnqO2LjGvOOQGy05yDg3LfEneVSACxwc74Qzjf_6KZVOrlURmyB0h8wGIE_X5HNoDwqJycRuEBkeQgJ3oz0n_qLm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnF9mWpEhXJSiEqOnAe0al7tBZFabL2d0PJXOCBmOAY_aMg8HFVMb-b2XfQPRKuZZLF0geFAGgvdB&lib=MQhorLLoxB5o3UI3mxtpi0894Q4w4dklm', {
+  default: () => []
+})
 </script>
 
 <style>

@@ -13,12 +13,12 @@
             <div class="media">
               <div class="media-left">
                 <figure class="image is-48x48">
-                  <img src="~/static/nimg.jpg" alt="Logo Image">
+                  <img src="/nimg.jpg" alt="Logo Image">
                 </figure>
               </div>
               <div class="media-left">
                 <figure class="image is-48x48">
-                  <img src="~/static/cimg.jpg" alt="Logo Image">
+                  <img src="/cimg.jpg" alt="Logo Image">
                 </figure>
               </div>
               <div class="media-content">
@@ -60,7 +60,7 @@
             <div class="media">
               <div class="media-left">
                 <figure class="image is-48x48">
-                  <img src="~/static/logoimg.jpg" alt="Logo Image">
+                  <img src="/logoimg.jpg" alt="Logo Image">
                 </figure>
               </div>
               <div class="media-content">
@@ -102,13 +102,10 @@
 </article>
 </template>
 
-<script>
-
-export default {
-  head: {
-    title: '🎧 + 🔧'
-  }
-}
+<script setup>
+useHead({
+  title: '🎧 + 🔧'
+})
 </script>
 
 <style>
