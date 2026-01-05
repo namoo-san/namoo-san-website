@@ -6,19 +6,19 @@
         <div class="card">
           <div class="card-image">
             <figure class="image is-4by3">
-              <img src="https://images.pexels.com/photos/529930/pexels-photo-529930.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="DJ Image">
+              <img src="/djing.jpeg" alt="DJ Image">
             </figure>
           </div>
           <div class="card-content">
             <div class="media">
               <div class="media-left">
                 <figure class="image is-48x48">
-                  <img src="~/static/nimg.jpg" alt="Logo Image">
+                  <img src="/nimg.jpg" alt="Logo Image">
                 </figure>
               </div>
               <div class="media-left">
                 <figure class="image is-48x48">
-                  <img src="~/static/cimg.jpg" alt="Logo Image">
+                  <img src="/cimg.jpg" alt="Logo Image">
                 </figure>
               </div>
               <div class="media-content">
@@ -30,7 +30,7 @@
               <div>
                 Equipment :
                 <div class="color">
-                  #CDJ-2000 #CDJ-2000NXS #CDJ-2000NXS2 #rekordboxDJ #rekordbox #PRO-LINK
+                  #CDJ-3000 #CDJ-2000NXS #CDJ-2000NXS2 #rekordboxDJ #rekordbox #PRO-LINK
                 </div>
               </div>
               <div>
@@ -60,7 +60,7 @@
             <div class="media">
               <div class="media-left">
                 <figure class="image is-48x48">
-                  <img src="~/static/logoimg.jpg" alt="Logo Image">
+                  <img src="/logoimg.jpg" alt="Logo Image">
                 </figure>
               </div>
               <div class="media-content">
@@ -102,13 +102,10 @@
 </article>
 </template>
 
-<script>
-
-export default {
-  head: {
-    title: '🎧 + 🔧'
-  }
-}
+<script setup>
+useHead({
+  title: '🎧 + 🔧'
+})
 </script>
 
 <style>

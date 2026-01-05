@@ -10,13 +10,13 @@
     <div class="hero-foot">
       <nav class="tabs">
         <ul>
-          <li><nuxt-link to="/resume">Resume</nuxt-link></li>
+          <li><NuxtLink to="/resume">Resume</NuxtLink></li>
           <li class="is-active">
-            <nuxt-link to="/resume/careers">Careers</nuxt-link>
+            <NuxtLink to="/resume/careers">Careers</NuxtLink>
           </li>
-          <li><nuxt-link to="/resume/skills">Skills</nuxt-link></li>
-          <li><nuxt-link to="/resume/dev">Development</nuxt-link></li>
-          <li><nuxt-link to="/resume/others">Others</nuxt-link></li>
+          <li><NuxtLink to="/resume/skills">Skills</NuxtLink></li>
+          <li><NuxtLink to="/resume/dev">Development</NuxtLink></li>
+          <li><NuxtLink to="/resume/others">Others</NuxtLink></li>
         </ul>
       </nav>
     </div>
@@ -324,17 +324,13 @@
   </article>
 </template>
 
-<script>
-export default {
-  head: {
-    title: "nakashun.com - Careers",
-  },
+<script setup>
+useHead({
+  title: "nakashun.com - Careers",
   meta: [
-    { charset: "utf-8" },
-    { name: "viewport", content: "width=device-width, initial-scale=1" },
-    { hid: "robots", name: "robots", content: "noindex" },
+    { name: "robots", content: "noindex" },
   ],
-};
+})
 </script>
 
 <style>
