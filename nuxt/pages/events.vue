@@ -81,7 +81,7 @@
         <div class="card">
           <div class="card-image">
             <figure class="image is-4by3">
-              <img class="imgfix" src="/wl.jpg" alt="Womb Lounge DJ Event" loading="lazy">
+              <img class="imgfix" src="/wl.jpg" alt="UNBOXX Lounge DJ Event" loading="lazy">
             </figure>
           </div>
           <div class="card-content">
