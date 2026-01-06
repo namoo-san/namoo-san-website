@@ -3,7 +3,7 @@
     <div class="hero-body">
       <div class="has-text-centered">
         <p class="title">🍺</p>
-        <p class="subtitle">Others</p>
+        <p class="subtitle">Favorites</p>
       </div>
     </div>
 
@@ -15,7 +15,7 @@
           <li><NuxtLink to="/resume/skills">Skills</NuxtLink></li>
           <li><NuxtLink to="/resume/dev">Development</NuxtLink></li>
           <li class="is-active">
-            <NuxtLink to="/resume/others">Others</NuxtLink>
+            <NuxtLink to="/resume/favorites">Favorites</NuxtLink>
           </li>
         </ul>
       </nav>
