@@ -16,7 +16,7 @@
             <NuxtLink to="/resume/skills">Skills</NuxtLink>
           </li>
           <li><NuxtLink to="/resume/dev">Development</NuxtLink></li>
-          <li><NuxtLink to="/resume/others">Others</NuxtLink></li>
+          <li><NuxtLink to="/resume/favorites">Favorites</NuxtLink></li>
         </ul>
       </nav>
     </div>
