@@ -11,27 +11,7 @@
       </div>
     </div>
 
-    <div class="hero-foot">
-      <nav class="tabs">
-        <ul>
-          <li class="is-active">
-            <NuxtLink to="/resume">Resume</NuxtLink>
-          </li>
-          <li>
-            <NuxtLink to="/resume/careers">Careers</NuxtLink>
-          </li>
-          <li>
-            <NuxtLink to="/resume/skills">Skills</NuxtLink>
-          </li>
-          <li>
-            <NuxtLink to="/resume/dev">Development</NuxtLink>
-          </li>
-          <li>
-            <NuxtLink to="/resume/favorites">Favorites</NuxtLink>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    <ResumeNavigation />
 
     <section class="section">
       <div class="columns">
