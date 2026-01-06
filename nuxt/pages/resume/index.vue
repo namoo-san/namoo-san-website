@@ -18,7 +18,7 @@
           <li><nuxt-link to="/resume/careers">Careers</nuxt-link></li>
           <li><nuxt-link to="/resume/skills">Skills</nuxt-link></li>
           <li><nuxt-link to="/resume/dev">Development</nuxt-link></li>
-          <li><nuxt-link to="/resume/others">Others</nuxt-link></li>
+          <li><nuxt-link to="/resume/favorites">Favorites</nuxt-link></li>
         </ul>
       </nav>
     </div>
@@ -40,17 +40,26 @@
                 <div class="content">
                   <p>
                     <strong>nakashun</strong> <small>@namoo-san</small>
-                    <small>(28)</small>
+                    <small>(31)</small>
                     <br />
                   </p>
                   <p>
-                    現在はEurekaでコーポレートITチーム（MISチーム）のマネージャーをやっています。
-                    前職は一休.com 社内情報システム部でリードエンジニアをしていました。
+                    情報システム・コーポレートITの領域でフリーランスをしている nakashun と申します。
+                    <br />
+                    前職ではEurekaでコーポレートITチーム（MISチーム）のマネージャーをしていました。
+                    <br />
                     人々が便利になるようなモノを作るのが好きです。
                   </p>
                   <p>
                     幼少期からパソコンに触れ、インフラの構築やコーディングなど
+                    <br />
                     ジャンルを問わず課題をテクノロジーを使って解決することが好きです。
+                    <br />
+                  </p>
+                  <p>
+                    「ITが正しく使われている社会を目指す」のが仕事のモチベーションです。
+                    <br />
+                    知識・技術・ツールが手段として利活用されている組織を増やしたいです。
                   </p>
                 </div>
               </div>
