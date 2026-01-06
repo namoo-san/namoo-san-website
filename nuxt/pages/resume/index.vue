@@ -14,26 +14,33 @@
     <div class="hero-foot">
       <nav class="tabs">
         <ul>
-          <li class="is-active"><NuxtLink to="/resume">Resume</NuxtLink></li>
-          <li><NuxtLink to="/resume/careers">Careers</NuxtLink></li>
-          <li><NuxtLink to="/resume/skills">Skills</NuxtLink></li>
-          <li><NuxtLink to="/resume/dev">Development</NuxtLink></li>
-          <li><NuxtLink to="/resume/others">Others</NuxtLink></li>
+          <li class="is-active">
+            <NuxtLink to="/resume">Resume</NuxtLink>
+          </li>
+          <li>
+            <NuxtLink to="/resume/careers">Careers</NuxtLink>
+          </li>
+          <li>
+            <NuxtLink to="/resume/skills">Skills</NuxtLink>
+          </li>
+          <li>
+            <NuxtLink to="/resume/dev">Development</NuxtLink>
+          </li>
+          <li>
+            <NuxtLink to="/resume/favorites">Favorites</NuxtLink>
+          </li>
         </ul>
       </nav>
     </div>
 
-  <section class="section">
-    <div class="columns">
-      <div class="column">
+    <section class="section">
+      <div class="columns">
+        <div class="column">
           <div class="box">
             <article class="media">
               <div class="media-left">
                 <figure class="image is-64x64">
-                  <img
-                    src="https://avatars3.githubusercontent.com/u/27718737?v=4"
-                    alt="Image"
-                  />
+                  <img src="https://avatars3.githubusercontent.com/u/27718737?v=4" alt="Image" />
                 </figure>
               </div>
               <div class="media-content">
@@ -44,20 +51,24 @@
                     <br />
                   </p>
                   <p>
-                    現在はEurekaでコーポレートITチーム（MISチーム）のマネージャーをやっています。
-                    前職は一休.com 社内情報システム部でリードエンジニアをしていました。
-                    人々が便利になるようなモノを作るのが好きです。
+                    情報システム・コーポレートITの分野でフリーランスとして活動しているnakashunです。<br />
+                    前職はEurekaでコーポレートITチーム（MISチーム）のマネージャーを担当していました。<br />
+                    人々が便利になるようなモノを作るのが好きです。<br />
                   </p>
                   <p>
-                    幼少期からパソコンに触れ、インフラの構築やコーディングなど
-                    ジャンルを問わず課題をテクノロジーを使って解決することが好きです。
+                    幼少期からパソコンに触れ、インフラの構築やコーディングなど<br />
+                    ジャンルを問わず課題をテクノロジーを使って解決することが好きです。<br />
+                  </p>
+                  <p>
+                    「ITが正しく使われている社会を目指す」のが仕事のモチベーションです。<br />
+                    知識・技術・ツールが手段として利活用されている組織を増やしたいです。<br />
                   </p>
                 </div>
               </div>
             </article>
           </div>
-      </div>
-      <div class="column">
+        </div>
+        <div class="column">
           <div class="table-container">
             <table class="table">
               <thead>
@@ -118,8 +129,8 @@
               </tbody>
             </table>
           </div>
+        </div>
       </div>
-    </div>
     </section>
   </article>
 </template>
@@ -133,5 +144,4 @@ useHead({
 })
 </script>
 
-<style>
-</style>
+<style></style>
