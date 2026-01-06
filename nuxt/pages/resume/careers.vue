@@ -16,7 +16,7 @@
           </li>
           <li><nuxt-link to="/resume/skills">Skills</nuxt-link></li>
           <li><nuxt-link to="/resume/dev">Development</nuxt-link></li>
-          <li><nuxt-link to="/resume/others">Others</nuxt-link></li>
+          <li><nuxt-link to="/resume/favorites">Favorites</nuxt-link></li>
         </ul>
       </nav>
     </div>
@@ -221,26 +221,31 @@
                   <li>ABEJA,inc</li>
                   <li>トラベルブック株式会社</li>
                   <li>Re:teigi,Inc / JYOMYAKU株式会社</li>
-                  <li>Alpaca,inc</li>
+                  <li>Alpaca Japan,inc</li>
+                  <li>Alpaca Tech,inc</li>
+                  <li>株式会社バニッシュ・スタンダード</li>
+                  <li>ビーサイズ株式会社</li>
+                  <li>株式会社エイチ</li>
+                  <li>A'alda Japan 株式会社</li>
+                  <li>株式会社シナスタジア</li>
+                  <li>株式会社Third Intelligence</li>
                 </block>
-                <div class="block">
-                  <ul>
-                    <li>情報システム技術支援</li>
-                    <li>IPO 内部統制コンサルティング</li>
-                    <li>IPO 情報システムコンサルティング</li>
-                    <li>グループ企業内 IT統制支援</li>
-                  </ul>
-                </div>
               </div>
             </div>
             <footer class="card-footer">
               <div class="card-footer-item">
                 <div class="tags">
+                  <span class="tag is-dark">オフィス構築</span>
+                  <span class="tag is-dark">インフラ設計</span>
+                  <span class="tag is-dark">内部統制</span>
+                  <span class="tag is-dark">IPO/ISMS</span>
                   <span class="tag is-warning">Azure AD</span>
                   <span class="tag is-warning">Google Workspace</span>
+                  <span class="tag is-warning">Jamf Now</span>
                   <span class="tag is-warning">Jamf Pro</span>
-                  <span class="tag is-info">Intune</span>
+                  <span class="tag is-warning">Terraform</span>
                   <span class="tag is-info">mac OS</span>
+                  <span class="tag is-info">Intune</span>
                   <span class="tag is-light">Windows</span>
                 </div>
               </div>
@@ -337,5 +342,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>
