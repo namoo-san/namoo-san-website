@@ -5432,9 +5432,7 @@ vue-router@^4.6.3:
     "@vue/devtools-api" "^6.6.4"
 
 vue@^3.4.0, vue@^3.5.25:
-  version "3.5.26"
-  resolved "https://registry.yarnpkg.com/vue/-/vue-3.5.26.tgz#03a0b17311e0e593d34b9358fa249b85e3a6d9fb"
-  integrity sha512-SJ/NTccVyAoNUJmkM9KUqPcYlY+u8OVL1X5EW9RIs3ch5H2uERxyyIUI4MRxVCSOiEcupX9xNGde1tL9ZKpimA==
+  version "3.5.28"
   dependencies:
     "@vue/compiler-dom" "3.5.26"
     "@vue/compiler-sfc" "3.5.26"
