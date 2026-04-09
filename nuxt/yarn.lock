@@ -1571,12 +1571,12 @@
   integrity sha512-WmoN8qaIAo7WTYWbAZuG8PYEhn5fkz7dZrqTBZ7dtt//lL2Gwms1IcnQ5yHqjDfX8Ft5j4YzDM23f87zBfDe9g==
 
 "@unhead/vue@^2.0.19":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@unhead/vue/-/vue-2.1.1.tgz#4de064a1892f56cde38137a9a53b940abdce3bb7"
-  integrity sha512-WYa8ORhfv7lWDSoNpkMKhbW1Dbsux/3HqMcVkZS3xZ2/c/VrcChLj+IMadpCd1WNR0srITfRJhBYZ1i9hON5Qw==
+  version "2.1.13"
+  resolved "https://registry.yarnpkg.com/@unhead/vue/-/vue-2.1.13.tgz#99bd579ec3f6c56e78e439413b2a79c10836eb42"
+  integrity sha512-HYy0shaHRnLNW9r85gppO8IiGz0ONWVV3zGdlT8CQ0tbTwixznJCIiyqV4BSV1aIF1jJIye0pd1p/k6Eab8Z/A==
   dependencies:
-    hookable "^5.5.3"
-    unhead "2.1.1"
+    hookable "^6.0.1"
+    unhead "2.1.13"
 
 "@vercel/nft@^0.30.3":
   version "0.30.4"
@@ -3105,6 +3105,11 @@ hookable@^5.5.3:
   version "5.5.3"
   resolved "https://registry.yarnpkg.com/hookable/-/hookable-5.5.3.tgz#6cfc358984a1ef991e2518cb9ed4a778bbd3215d"
   integrity sha512-Yc+BQe8SvoXH1643Qez1zqLRmbA5rCL+sSmk6TVos0LWVfNIB7PGncdlId77WzLGSIB5KaWgTaNTs2lNVEI6VQ==
+
+hookable@^6.0.1:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/hookable/-/hookable-6.1.0.tgz#f9eb1c39928b5c6db4e8884155d402420030555e"
+  integrity sha512-ZoKZSJgu8voGK2geJS+6YtYjvIzu9AOM/KZXsBxr83uhLL++e9pEv/dlgwgy3dvHg06kTz6JOh1hk3C8Ceiymw==
 
 http-errors@^2.0.1:
   version "2.0.1"
@@ -5177,12 +5182,12 @@ unenv@^2.0.0-rc.23, unenv@^2.0.0-rc.24:
   dependencies:
     pathe "^2.0.3"
 
-unhead@2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/unhead/-/unhead-2.1.1.tgz#81f1cd59db2be6c910c862dab2938b7798b33c24"
-  integrity sha512-NOt8n2KybAOxSLfNXegAVai4SGU8bPKqWnqCzNAvnRH2i8mW+0bbFjN/L75LBgCSTiOjJSpANe5w2V34Grr7Cw==
+unhead@2.1.13:
+  version "2.1.13"
+  resolved "https://registry.yarnpkg.com/unhead/-/unhead-2.1.13.tgz#df317d5ee5365641f15b7a9211cc9641b3ec886a"
+  integrity sha512-jO9M1sI6b2h/1KpIu4Jeu+ptumLmUKboRRLxys5pYHFeT+lqTzfNHbYUX9bxVDhC1FBszAGuWcUVlmvIPsah8Q==
   dependencies:
-    hookable "^5.5.3"
+    hookable "^6.0.1"
 
 unicorn-magic@^0.3.0:
   version "0.3.0"
