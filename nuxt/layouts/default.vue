@@ -32,9 +32,6 @@
               <a class="navbar-item" href="https://www.facebook.com/ieto.sharu">
                 😃 Facebook(Private)
               </a>
-              <a class="navbar-item" href="https://soundcloud.com/djnm">
-                🎧 SoundCloud
-              </a>
               <a class="navbar-item" href="https://twitter.com/ietosharu">
                 🐦 Twitter
               </a>

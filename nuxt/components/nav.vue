@@ -46,14 +46,6 @@
             </a>
             <a
               class="navbar-item"
-              href="https://soundcloud.com/djnm"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              SoundCloud
-            </a>
-            <a
-              class="navbar-item"
               href="https://twitter.com/ietosharu"
               target="_blank"
               rel="noopener noreferrer"
